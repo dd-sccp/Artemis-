@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão Artemis</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #0b0f1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header{
+            background-color: #111827;
+            padding: 20px;
+        }
+
+        img.logo{
+            width: 250px;
+        }
+
+        .conteudo{
+            padding: 30px;
+        }
+
+        .galeria{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .galeria img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: #111827;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Artemis_program_logo.svg/800px-Artemis_program_logo.svg.png"
+        alt="Logo Artemis">
+    </header>
+
+    <div class="conteudo">
+        <h1>Missão Artemis</h1>
+
+        <p>
+            A missão Artemis é um programa espacial liderado pela NASA
+            com o objetivo de levar novamente seres humanos à Lua.
+            O projeto busca estabelecer presença sustentável no satélite
+            natural e preparar futuras missões tripuladas para Marte.
+        </p>
+
+        <h2>Galeria de Fotos</h2>
+
+        <div class="galeria">
+
+            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/artemis1.jpg" alt="Artemis 1">
+
+            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/moon-rocket.jpg" alt="Foguete">
+
+            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/orion-spacecraft.jpg" alt="Orion">
+
+            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/artemis-team.jpg" alt="Equipe">
+
+            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/moon-surface.jpg" alt="Lua">
+
+        </div>
+    </div>
+
+    <footer>
+        Projeto Flask + GitHub + Azure
+    </footer>
+
+</body>
+</html>
