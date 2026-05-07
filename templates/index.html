@@ -1,91 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Missão Artemis</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Missão Artemis</title>
 
-    <style>
-        body{
-            font-family: Arial;
-            background-color: #0b0f1a;
-            color: white;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+<style>
 
-        header{
-            background-color: #111827;
-            padding: 20px;
-        }
+body{
+    margin:0;
+    font-family: Arial;
+    background:#0b1120;
+    color:white;
+}
 
-        img.logo{
-            width: 250px;
-        }
+header{
+    background:#111827;
+    padding:30px;
+    text-align:center;
+}
 
-        .conteudo{
-            padding: 30px;
-        }
+header h1{
+    font-size:40px;
+}
 
-        .galeria{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
+header p{
+    color:#cbd5e1;
+}
 
-        .galeria img{
-            width: 100%;
-            border-radius: 10px;
-        }
+.banner{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
 
-        footer{
-            background-color: #111827;
-            padding: 15px;
-            margin-top: 20px;
-        }
-    </style>
+.conteudo{
+    padding:40px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card p{
+    padding:15px;
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+</style>
 </head>
 
 <body>
 
-    <header>
-        <img class="logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Artemis_program_logo.svg/800px-Artemis_program_logo.svg.png"
-        alt="Logo Artemis">
-    </header>
+<header>
 
-    <div class="conteudo">
-        <h1>Missão Artemis</h1>
+<h1>Missão Artemis</h1>
 
-        <p>
-            A missão Artemis é um programa espacial liderado pela NASA
-            com o objetivo de levar novamente seres humanos à Lua.
-            O projeto busca estabelecer presença sustentável no satélite
-            natural e preparar futuras missões tripuladas para Marte.
-        </p>
+<p>
+O retorno da humanidade à Lua
+</p>
 
-        <h2>Galeria de Fotos</h2>
+</header>
 
-        <div class="galeria">
+<img class="banner"
+src="https://s2-cbn.glbimg.com/-IoNV9a_pJgBo3PvmSSu53dHt-c=/0x0:2048x1858/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/s/0/J4apD7TtyLpO4zRTE4dw/55050650260-2530fea74e-k.jpg">
 
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/artemis1.jpg" alt="Artemis 1">
+<div class="conteudo">
 
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/moon-rocket.jpg" alt="Foguete">
+<h2>Sobre a Missão</h2>
 
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/orion-spacecraft.jpg" alt="Orion">
+<p>
+A missão Artemis é um programa espacial da NASA criado para levar astronautas novamente à Lua e preparar futuras viagens para Marte.
+</p>
 
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/artemis-team.jpg" alt="Equipe">
+<h2>Galeria</h2>
 
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/moon-surface.jpg" alt="Lua">
+<div class="galeria">
 
-        </div>
-    </div>
+<div class="card">
+<img src="https://s2-cbn.glbimg.com/-IoNV9a_pJgBo3PvmSSu53dHt-c=/0x0:2048x1858/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/s/0/J4apD7TtyLpO4zRTE4dw/55050650260-2530fea74e-k.jpg">
+<p>Missão espacial Artemis.</p>
+</div>
 
-    <footer>
-        Projeto Flask + GitHub + Azure
-    </footer>
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF_auwlG8qGUo3zEoTuJRGw_kYJuGsjjK6og&s">
+<p>Tecnologia espacial moderna.</p>
+</div>
+
+<div class="card">
+<img src="https://aventurasnahistoria.com.br/wp-content/uploads/2026/04/lua-eclipse-800x450.jpg">
+<p>Imagem da Lua.</p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaIPITtlxZjpvjQlKrQI3-QeoZ2-PZDXGtQ&s">
+<p>Exploração espacial.</p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNPISmx7ZU-qwtiNsgHu0yotYPgQ5GOSPW6A&s">
+<p>Futuro das missões lunares.</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+Projeto Flask + GitHub + Azure
+</footer>
 
 </body>
 </html>
